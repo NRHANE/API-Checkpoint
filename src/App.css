@@ -1,38 +1,37 @@
-.App {
+
+.App h1 {
   text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: brown;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h1:hover{
+  color:bisque;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App {
+  background-color: gray;
+  background-image: linear-gradient(62deg, white 0%, coral 100%);
+  padding: 57px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.caard {
+  width: 100%;
+  height: 1000px;
+  background-color:bisque;
+  display: flex ;
+  flex-wrap: wrap ;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: space-around;
 }
-
-.App-link {
-  color: #61dafb;
+.Nor{
+  width: 25%;
+  height: 250px;
+  background-color:beige ;
+  margin: 15px;
+  padding: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.Nor:hover{
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  transform: scale(1.1);
+  background-color:coral;
+}  
